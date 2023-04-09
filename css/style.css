@@ -1,0 +1,49 @@
+
+
+
+table, th, td{
+	border: 4px solid transparent;
+	/*border-collapse: collapse;*/
+/*	background-color: white;*/
+}
+
+
+table{
+	width: 100%;
+
+
+}
+
+
+th, td{
+		/*background-color: rgba(255, 255, 255, 0.9);*/
+/*		opacity: 70%;*/
+}
+
+
+td:hover {
+
+	border-radius: 3px;
+	transition: 0.1s ease;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 2px 2px 3px 3px;
+}
+
+
+td{
+	transition: 0.6s ease;
+}
+
+
+th:hover {
+
+	border-radius: 3px;
+	transition: 0.1s ease;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 2px 2px 3px 3px;
+}
+
+
+th{
+	transition: 0.6s ease;
+}
